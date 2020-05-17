@@ -7,8 +7,8 @@ int main()
     const int anzahl = 120;
     int proStock = anzahl / 5;
     int kfzlaenge = 8;
-    Parkplatz p1[anzahl];
-    Auto a[anzahl];
+    Parkplatz* p1[anzahl];
+    Auto* a[anzahl];
     int index = 0;
     int stock = 1;
 
