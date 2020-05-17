@@ -2,10 +2,6 @@
 #define KLASSEN_H
 
 #include<stdlib.h>
-#include<cstdio>
-#include<cmath>
-#include<string>
-#include<iostream>
 
 using namespace std;
 
@@ -32,6 +28,8 @@ public:
     int getStock(void){return this->stockwerk;}
     int getNummer(void){return this->pnummer;}
     int getBelegt(void){return this->belegt;}
+
+    void display();
 
     class friend Fahrzeug;
 };
