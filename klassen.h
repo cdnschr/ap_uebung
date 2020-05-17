@@ -33,6 +33,7 @@ public:
     int getNummer(void){return this->pnummer;}
     int getBelegt(void){return this->belegt;}
 
+    class friend Fahrzeug;
 };
 
 class Fahrzeug
@@ -47,8 +48,10 @@ public:
   ~Fahrzeug;
 
   void setKenn(string k){this->kennzeichen = k;}
+  void setNummer(int pn){this->pnummer = pn;}
 
   string getKenn(void){return this->kennzeichen;}
+  int getNummer(void){return this->pnummer;}
 
 };
 
