@@ -53,6 +53,7 @@ public:
   string getKenn(void){return this->kennzeichen;}
   int getNummer(void){return this->pnummer;}
 
+  void display();
 };
 
 class Auto : public Fahrzeug
@@ -63,6 +64,7 @@ private:
 public:
   Auto();
   ~Auto();
+
 };
 
 #endif // KLASSEN_H

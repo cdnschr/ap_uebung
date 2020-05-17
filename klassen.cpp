@@ -1,6 +1,6 @@
 #include "klassen.h"
 
-klassen::klassen()
+void Fahrzeug::display(void)
 {
-
+  
 }

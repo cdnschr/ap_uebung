@@ -12,7 +12,7 @@ int main()
     for (int i=0; i<(anzahl/5); i++)
     {
       for int j=0; j<proStock;  j++) {
-        Parkplatz
+        
       }
 
     }
