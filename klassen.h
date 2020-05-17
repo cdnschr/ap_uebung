@@ -2,6 +2,8 @@
 #define KLASSEN_H
 
 #include<stdlib.h>
+#include<iostream>
+#include<string.h>
 
 using namespace std;
 
@@ -18,7 +20,7 @@ private:
 protected:
 
 public:
-    Parkplatz(int st = 0,int pn = 0;bool b = 0);
+    Parkplatz(int st = 0,int pn = 0,bool b = 0);
     ~Parkplatz();
 
     void setStock(int st){this->stockwerk = st;}
